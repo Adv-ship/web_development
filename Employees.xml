@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Employees.xsl"?>
+
+<Employees>
+    <employee>
+        <name>Shivam</name>
+        <address>Murgud</address>
+        <contact>9689689068</contact>
+    </employee>
+
+    <employee>
+        <name>Rahul</name>
+        <address>Pune</address>
+        <contact>9876543210</contact>
+    </employee>
+
+    <employee>
+        <name>Priya</name>
+        <address>Mumbai</address>
+        <contact>9123456780</contact>
+    </employee>
+
+    <employee>
+        <name>Amit</name>
+        <address>Kolhapur</address>
+        <contact>9012345678</contact>
+    </employee>
+
+    <employee>
+        <name>Sneha</name>
+        <address>Satara</address>
+        <contact>9988776655</contact>
+    </employee>
+
+    <employee>
+        <name>Rohit</name>
+        <address>Nashik</address>
+        <contact>8899776655</contact>
+    </employee>
+
+</Employees>

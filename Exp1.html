@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web Technology Project</title>
+
+    <style>
+
+        body{
+            margin:0;
+            padding:0;
+            font-family: Arial;
+            background: linear-gradient(to right, #74ebd5, #9face6);
+        }
+
+        header{
+            background-color:black;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav{
+            background-color:#333;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:20px;
+            font-size:18px;
+        }
+
+        section{
+            padding:40px;
+            text-align:center;
+        }
+
+        .card{
+            background:white;
+            width:300px;
+            margin:auto;
+            padding:20px;
+            border-radius:15px;
+            box-shadow:0px 0px 10px gray;
+        }
+
+        button{
+            background:blue;
+            color:white;
+            border:none;
+            padding:12px 25px;
+            border-radius:10px;
+            cursor:pointer;
+        }
+
+        footer{
+            background:black;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:40px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Study of Web Technology</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+
+    <div class="card">
+
+        <h2>Frontend Languages</h2>
+
+        <p>
+            HTML, CSS and JavaScript are used to create websites.
+        </p>
+
+        <button onclick="showMessage()">
+            Learn More
+        </button>
+
+    </div>
+
+</section>
+
+<footer>
+    <h3>Created for Web Technology Study</h3>
+</footer>
+
+<script>
+
+function showMessage()
+{
+    alert("Welcome to Web Technology!");
+}
+
+</script>
+
+</body>
+</html>

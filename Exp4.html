@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Experiment No-4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        section {
+            margin-bottom: 30px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+        }
+        h2 {
+            color: #333;
+        }
+        .inline-text {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Experiment No-4: HTML & CSS Tasks</h1>
+
+<!-- 1. Display an image named nature.jpg -->
+<section>
+    <h2>1. html2.jpeg</h2>
+    <img src="html2.jpeg" alt="Nature">
+</section>
+
+<!-- 2. Set width and height -->
+<section>
+    <h2>2. Set width and height</h2>
+    <img src="html2.jpeg" width="300" height="200" alt="Sized Image">
+</section>
+
+<!-- 3. Add alternate text -->
+<section>
+    <h2>3.Beatutiful nature scene</h2>
+    <img src="html2.jpeg" alt="Beautiful Nature Scene">
+</section>
+
+<!-- 4. Display map.jpg -->
+<section>
+    <h2>4. Display map.jpg</h2>
+    <img src="html2.jpeg" alt="Map">
+</section>
+
+<!-- 5 & 6. Clickable map areas linking different webpages -->
+<section>
+    <h2>5 & 6. Image Map with Clickable Areas</h2>
+    <img src="html2.jpeg" usemap="#map1" alt="Clickable Map">
+    <map name="map1">
+        <area shape="rect" coords="10,10,100,100" href="https://www.google.com" alt="Google">
+        <area shape="circle" coords="150,150,50" href="https://www.wikipedia.org" alt="Wikipedia">
+    </map>
+</section>
+
+<!-- 7 & 8. Background image covering full screen -->
+<section style="
+background-image: url('html1.jpeg'); 
+background-size: cover; 
+background-repeat: no-repeat; 
+height: 200px;">
+    <h2>7 & 8. Background Image Example</h2>
+    <p>This section has a full-screen background image.</p>
+</section>
+
+<!-- 9, 10 & 11. Picture element with responsive images -->
+<section>
+    <h2>9, 10 & 11. Picture Element with Fallback</h2>
+    <picture>
+        <source srcset="html2.jpeg" media="(min-width: 800px)">
+        <source srcset="html2.jpeg" media="(min-width: 400px)">
+        <img src="html.jpeg" alt="Responsive Fallback Image">
+    </picture>
+</section>
+
+<!-- 12. Create a div section -->
+<section>
+    <h2>12. Simple div</h2>
+    <div>This is a div section.</div>
+</section>
+
+<!-- 13. Div with heading and paragraph -->
+<section>
+    <h2>13. Div with Heading & Paragraph</h2>
+    <div>
+        <h3>My Heading</h3>
+        <p>This is a paragraph inside the div.</p>
+    </div>
+</section>
+
+<!-- 14. Apply background color and padding using inline CSS -->
+<section>
+    <h2>14. Inline CSS Example</h2>
+    <div style="background-color: lightblue; padding: 15px;">
+        This div has background color and padding applied inline.
+    </div>
+</section>
+
+<!-- 15. Block-level element -->
+<section>
+    <h2>15. Block-level Element</h2>
+    <p>This is a block-level paragraph. It occupies the full width of its container.</p>
+</section>
+
+<!-- 16. Inline element inside paragraph -->
+<section>
+    <h2>16. Inline Element Example</h2>
+    <p>This paragraph has <span class="inline-text">inline text using span</span> inside it.</p>
+</section>
+
+<!-- 17. Difference in behavior -->
+<section>
+    <h2>17. Difference Between Block and Inline</h2>
+    <p>Block-level paragraph</p>
+    <span>Inline span text</span>
+</section>
+
+<!-- 18. Normal, submit, and reset buttons -->
+<section>
+    <h2>18. Buttons</h2>
+    <form>
+        <input type="button" value="Normal Button">
+        <input type="submit" value="Submit Button">
+        <input type="reset" value="Reset Button">
+    </form>
+</section>
+
+</body>
+</html>

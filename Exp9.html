@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Registration Form</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            width: 500px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 15px 0;
+        }
+
+        .inline {
+            width: auto;
+        }
+
+        .btn {
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .btn:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Employee Registration Form</h2>
+
+    <form>
+
+        <!-- Text Fields -->
+        <label>Full Name:</label>
+        <input type="text" name="fullname" placeholder="Enter full name">
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter email">
+
+        <label>Phone Number:</label>
+        <input type="text" name="phone" placeholder="Enter phone number">
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male" class="inline"> Male
+        <input type="radio" name="gender" value="Female" class="inline"> Female
+        <input type="radio" name="gender" value="Other" class="inline"> Other
+        <br><br>
+
+        <!-- Dropdown List -->
+        <label>Department:</label>
+        <select name="department">
+            <option>--Select Department--</option>
+            <option>IT</option>
+            <option>HR</option>
+            <option>Finance</option>
+            <option>Marketing</option>
+        </select>
+
+        <!-- Checkbox -->
+        <label>Skills:</label><br>
+        <input type="checkbox" name="skills" value="Java"> Java
+        <input type="checkbox" name="skills" value="Python"> Python
+        <input type="checkbox" name="skills" value="HTML"> HTML
+        <input type="checkbox" name="skills" value="SQL"> SQL
+
+        <br><br>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn">Register</button>
+
+    </form>
+</div>
+
+</body>
+</html>
